@@ -36,7 +36,8 @@ https://work.smarchal.com/twbscolor/css/9b59b68e44adecf0f1ecdbff0
   color: #ecf0f1;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #ecf0f1;
+  font-size: 18px;
+  color: #fff;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -104,6 +105,25 @@ https://work.smarchal.com/twbscolor/css/9b59b68e44adecf0f1ecdbff0
 	}
 } 
 
+
+/** LOGO **/
+.slider-full {
+	margin: 0 auto;
+	padding-top: 0px;
+	background: #eee;
+	max-height: 350px;
+	overflow: hidden;
+	border-top: 1px solid #8e44ad;
+	border-bottom: 1px solid #8e44ad;
+}
+
+
+	
+/** helper classes **/
+.pad50t50b {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
 
 
 
