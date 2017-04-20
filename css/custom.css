@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
     padding-top: 50px;
 }
 
@@ -6,3 +7,154 @@ body {
     padding: 40px 15px;
     text-align: center;
 }
+=======
+  /* min-height: 2000px; - conflicts with sticky footer */
+/*  padding-top: 70px;*/
+  font-size: 18px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #8e44ad;
+}
+
+
+
+.starter-template {
+	padding: 40px 15px;
+	text-align: center;
+}
+
+
+/**
+* navbar
+https://work.smarchal.com/twbscolor/css/9b59b68e44adecf0f1ecdbff0
+*/
+
+.navbar-default {
+  background-color: #9b59b6;
+  border-color: #8e44ad;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ecdbff;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  font-size: 18px;
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ecdbff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ecdbff;
+  background-color: #8e44ad;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ecdbff;
+  background-color: #8e44ad;
+}
+.navbar-default .navbar-toggle {
+  border-color: #8e44ad;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #8e44ad;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #ecdbff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ecdbff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ecdbff;
+    background-color: #8e44ad;
+  }
+}
+
+
+@media (min-width: 768px) {
+	.navbar .navbar-nav {
+		display: inline-block;
+		float: none;
+		vertical-align: top;
+	}
+	
+	.navbar .navbar-collapse {
+		text-align: center;
+	}
+} 
+
+
+/** LOGO **/
+.slider-full {
+	margin: 0 auto;
+	padding-top: 0px;
+	background: #eee;
+	max-height: 350px;
+	overflow: hidden;
+	border-top: 1px solid #8e44ad;
+	border-bottom: 1px solid #8e44ad;
+}
+
+
+/** CONTENT **/
+.left-sidebar {
+	border-left: 1px solid #ccc;
+	padding-left: 40px;
+}
+
+.sidebar2 {
+	background-color: #9b59b6;
+	color: white;
+	padding: 10px 26px;
+	margin-bottom: 20px;
+}
+
+.sidebar2 h3 {
+	color: white;
+}
+
+
+	
+/** helper classes **/
+.pad50t50b {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.pad25b {
+	padding-bottom: 25px;
+}
+
+
+>>>>>>> a0e3a4d4a3345f8bc27940fc350874b779df9bff
