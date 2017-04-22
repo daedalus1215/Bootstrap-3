@@ -1,24 +1,7 @@
-.button {
-  background: #006699;
-  color: #FFF;
-  padding: 5px;
-  display: inline-block;
-}
-.jumbo-button {
-  background: #006699;
-  color: #FFF;
-  padding: 5px;
-  display: inline-block;
-  /* mixin */
-  padding: 35px;
-  /* operations: adds 30px to 5px padding. */
-}
-.light-button {
-  background: #006699;
-  color: #FFF;
-  padding: 5px;
-  display: inline-block;
-  /* mixin */
-  background: #00a3f5;
-  /* operations: brings us closer ot white. */
+#one {
+  height: 500px;
+  width: 800px;
+  color: white;
+  margin-bottom: 10px;
+  background: url("images/palette.PNG");
 }
