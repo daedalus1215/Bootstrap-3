@@ -1,10 +1,13 @@
-.panel {
-  border: 3px solid dodgerblue;
-  background: lightgreen;
-  margin: 10px;
+/* nested rules */
+#side-nav {
+  background: #333;
 }
-.little-panel {
-  border: 3px solid dodgerblue;
-  background: lightgreen;
-  margin: 10px;
+#side-nav a:link,
+#side-nav a:visited {
+  color: white;
+  display: block;
+  padding: 8px;
+}
+#side-nav a:hover {
+  background: #559900;
 }
