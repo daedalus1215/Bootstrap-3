@@ -1,13 +1,13 @@
-/* nested rules */
-#side-nav {
-  background: #333;
+/*condition*/
+#welcome-banner {
+  /* Generic screen devices */
+  font-size: 32px;
+  background: lightgreen;
+  /* Only on small screen devices*/
 }
-#side-nav a:link,
-#side-nav a:visited {
-  color: white;
-  display: block;
-  padding: 8px;
-}
-#side-nav a:hover {
-  background: #559900;
+@media screen and (max-width: 768px) {
+  #welcome-banner {
+    font-size: 18px;
+    background: lightsteelblue;
+  }
 }

@@ -1,16 +1,17 @@
 
-/* nested rules */
-#side-nav {
-	background: #333;
+/*condition*/
+#welcome-banner {
+	/* Generic screen devices */
+	font-size: 32px;
+	background: lightgreen;
 	
-	a:link, a:visited {
-		color: white;
-		display: block;
-		padding: 8px;
+	/* Only on small screen devices*/
+	@media screen {
+		@media (max-width: 768px) {
+			font-size: 18px;
+			background: lightsteelblue;
+		}
 	}
-	
-	a:hover {
-		background: #559900;
-	}
-	
 }
+
+
