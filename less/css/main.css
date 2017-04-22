@@ -1,13 +1,24 @@
-/*condition*/
-#welcome-banner {
-  /* Generic screen devices */
-  font-size: 32px;
-  background: lightgreen;
-  /* Only on small screen devices*/
+.button {
+  background: #006699;
+  color: #FFF;
+  padding: 5px;
+  display: inline-block;
 }
-@media screen and (max-width: 768px) {
-  #welcome-banner {
-    font-size: 18px;
-    background: lightsteelblue;
-  }
+.jumbo-button {
+  background: #006699;
+  color: #FFF;
+  padding: 5px;
+  display: inline-block;
+  /* mixin */
+  padding: 35px;
+  /* operations: adds 30px to 5px padding. */
+}
+.light-button {
+  background: #006699;
+  color: #FFF;
+  padding: 5px;
+  display: inline-block;
+  /* mixin */
+  background: #00a3f5;
+  /* operations: brings us closer ot white. */
 }

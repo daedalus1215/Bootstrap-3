@@ -1,17 +1,24 @@
+@buttonBackground: #006699;
+@buttonColor: #FFF;
+@buttonPadding: 5px;
 
-/*condition*/
-#welcome-banner {
-	/* Generic screen devices */
-	font-size: 32px;
-	background: lightgreen;
-	
-	/* Only on small screen devices*/
-	@media screen {
-		@media (max-width: 768px) {
-			font-size: 18px;
-			background: lightsteelblue;
-		}
-	}
+
+
+.button {
+	background: @buttonBackground;
+	color: @buttonColor;
+	padding: @buttonPadding;
+	display: inline-block;
 }
 
 
+.jumbo-button {
+	.button; /* mixin */
+	padding: @buttonPadding + 30; /* operations: adds 30px to 5px padding. */
+}
+
+
+.light-button { 
+	.button; /* mixin */
+	background: @buttonBackground * 1.6; /* operations: brings us closer ot white. */
+}
