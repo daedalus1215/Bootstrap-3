@@ -4,6 +4,9 @@
 	h3 {
 		color: @widget-text-color;
 	}
+    p {
+        color: @widget-select-text-color;
+    }
 }
 
 
@@ -13,4 +16,23 @@
 	h3 {
 		color: @widget-base-color;
 	}
+}
+
+
+nav.navbar.navbar-default.widget-base {
+    background-color: @widget-base-color;
+    
+    .collapse.navbar-collapse > ul.nav.navbar-nav > li > a{    
+//        background-color: @widget-base-color;
+        color: @widget-text-color;
+    }
+    
+    .collapse.navbar-collapse > ul.nav.navbar-nav > li > a:hover {
+        background-color: @widget-third-color;
+        color: @widget-accent-color;
+    }
+    
+    .collapse.navbar-collapse > ul.nav.navbar-nav > li.active > a {
+        background-color: @widget-sec-color;
+    }
 }
