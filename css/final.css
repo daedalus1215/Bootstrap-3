@@ -6,7 +6,7 @@ h1 {
   font-family: Tahoma, sans-serif;
 }
 p {
-  color: #009900;
+  color: #000;
 }
 .starter-template {
   padding: 40px 15px;
@@ -20,27 +20,54 @@ h5,
 h6 {
   color: #8e44ad;
 }
+/** LOGO **/
+.slider-full {
+  margin: 0 auto;
+  padding-top: 0px;
+  background: #eee;
+  max-height: 350px;
+  overflow: hidden;
+  border-top: 1px solid #8e44ad;
+  border-bottom: 1px solid #8e44ad;
+}
+/** CONTENT **/
+.left-sidebar {
+  border-left: 1px solid #eee;
+  padding-left: 40px;
+}
+.sidebar2 {
+  padding: 10px 26px;
+  margin-bottom: 20px;
+}
+/** helper classes **/
+.pad50t50b {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.pad25b {
+  padding-bottom: 25px;
+}
 /**
 * navbar
 https://work.smarchal.com/twbscolor/css/9b59b68e44adecf0f1ecdbff0
 */
 .navbar-default {
-  background-color: #9b59b6;
+  background-color: #ddd;
   border-color: #8e44ad;
 }
 .navbar-default .navbar-brand {
-  color: #ecf0f1;
+  color: #eee;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #ecdbff;
 }
 .navbar-default .navbar-text {
-  color: #ecf0f1;
+  color: #eee;
 }
 .navbar-default .navbar-nav > li > a {
   font-size: 18px;
-  color: #fff;
+  color: #eee;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -66,21 +93,21 @@ https://work.smarchal.com/twbscolor/css/9b59b68e44adecf0f1ecdbff0
   background-color: #8e44ad;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #ecf0f1;
+  background-color: #eee;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #ecf0f1;
+  border-color: #eee;
 }
 .navbar-default .navbar-link {
-  color: #ecf0f1;
+  color: #eee;
 }
 .navbar-default .navbar-link:hover {
   color: #ecdbff;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ecf0f1;
+    color: #ecdbff;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -89,7 +116,7 @@ https://work.smarchal.com/twbscolor/css/9b59b68e44adecf0f1ecdbff0
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ecdbff;
+    color: #fff;
     background-color: #8e44ad;
   }
 }
@@ -103,35 +130,17 @@ https://work.smarchal.com/twbscolor/css/9b59b68e44adecf0f1ecdbff0
     text-align: center;
   }
 }
-/** LOGO **/
-.slider-full {
-  margin: 0 auto;
-  padding-top: 0px;
-  background: #eee;
-  max-height: 350px;
-  overflow: hidden;
-  border-top: 1px solid #8e44ad;
-  border-bottom: 1px solid #8e44ad;
+.widget-base {
+  background-color: #8e44ad;
+  color: #eee;
 }
-/** CONTENT **/
-.left-sidebar {
-  border-left: 1px solid #ccc;
-  padding-left: 40px;
+.widget-base h3 {
+  color: #eee;
 }
-.sidebar2 {
-  background-color: #9b59b6;
-  color: white;
-  padding: 10px 26px;
-  margin-bottom: 20px;
+.widget-secondary {
+  background-color: #eee;
+  color: #8e44ad;
 }
-.sidebar2 h3 {
-  color: white;
-}
-/** helper classes **/
-.pad50t50b {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.pad25b {
-  padding-bottom: 25px;
+.widget-secondary h3 {
+  color: #8e44ad;
 }
