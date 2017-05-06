@@ -94,3 +94,6 @@ nav.navbar.navbar-default.widget-base .collapse.navbar-collapse > ul.nav.navbar-
 nav.navbar.navbar-default.widget-base .collapse.navbar-collapse > ul.nav.navbar-nav > li.active > a {
   background-color: #3546a7;
 }
+#sidebar-nav ul > li {
+  list-style: none;
+}

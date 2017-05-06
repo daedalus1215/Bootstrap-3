@@ -1,0 +1,14 @@
+/**
+* navbar
+https://work.smarchal.com/twbscolor/css/9b59b68e44adecf0f1ecdbff0
+*/
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+}
