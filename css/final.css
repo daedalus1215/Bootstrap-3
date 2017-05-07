@@ -56,19 +56,6 @@ https://work.smarchal.com/twbscolor/css/9b59b68e44adecf0f1ecdbff0
     text-align: center;
   }
 }
-nav.navbar.navbar-default.widget-base {
-  background-color: #5460a7;
-}
-nav.navbar.navbar-default.widget-base .collapse.navbar-collapse > ul.nav.navbar-nav > li > a {
-  color: #eee;
-}
-nav.navbar.navbar-default.widget-base .collapse.navbar-collapse > ul.nav.navbar-nav > li > a:hover {
-  background-color: #1b2fa0;
-  color: #eabb3d;
-}
-nav.navbar.navbar-default.widget-base .collapse.navbar-collapse > ul.nav.navbar-nav > li.active > a {
-  background-color: #3546a7;
-}
 #sidebar-nav ul li {
   list-style: none;
   border: 2px solid #eee;
