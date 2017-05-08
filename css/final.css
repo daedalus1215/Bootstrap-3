@@ -56,6 +56,15 @@ https://work.smarchal.com/twbscolor/css/9b59b68e44adecf0f1ecdbff0
     text-align: center;
   }
 }
+#footer {
+  background-color: #ddd;
+}
+#footer #copyright {
+  background-color: #000;
+}
+#footer #copyright p {
+  color: #fff;
+}
 #sidebar-nav ul li {
   list-style: none;
   border: 2px solid #eee;
